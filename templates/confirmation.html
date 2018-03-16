@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Success</title>
+        <meta charset='UTF-8'>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}">
+        <!-- <link rel='stylesheet' type="text/css" href="infoStyle.css"> -->
+    </head>
+
+    <body>
+        <div id='wrapper'>           
+
+            <h2>XYZ  Account Page</h2>
+
+            <div id='row1'>
+                <!-- <label>First Name:</label> -->
+                <p>Hello {{user['firstName']}} {{user['lastName']}}</p>
+            </div>
+            
+        </div>
+       
+    </body>
+
+</html>

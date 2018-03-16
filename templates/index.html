@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Login Register</title>
+        <meta charset='UTF-8'>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+
+    <body>
+        <div id='wrapper'>
+
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <p class='flash'>{{message}}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <h1>Login</h1>
+
+            <form id='login' action='/login' method='post'>
+
+                <div id='loginRow1'>
+                    <label>Email:</label>
+                    <input type='text' name='email'>
+                </div>
+    
+                <div id='loginRow2'>
+                    <label>Password:</label>
+                    <input type='password' name='pass'>
+                </div>
+
+                <input type='submit' class='myButtons' value='login'>
+            </form>
+
+            <h1>Register</h1>
+
+            <form id='register' action='/validate' method='post'>
+
+                <div id='row1'>
+                    <label>First Name:</label>
+                    <input type='text' name='firstName'>
+                </div>
+
+                <div id='row2'>
+                    <label>Last Name:</label>
+                    <input type='text' name='lastName'>
+                </div>
+    
+                <div id='row3'>
+                    <label>Email:</label>
+                    <input type='text' name='email'>
+                </div>
+
+                <div id='row4'>
+                    <label>Date of Birth:</label>
+                    <input type='date' name='dob'>
+                </div>
+
+                <div id='row5'>
+                    <label>password:</label>
+                    <input type='password' name='password'>
+                </div>
+
+                <div id='row6'>
+                    <label>Confrim password:</label>
+                    <input type='password' name='confirmPass'>
+                </div>
+                
+                <input type='submit' class='myButtons' value='register'>
+
+            </form>
+        </div>
+       
+    </body>
+
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 970px;
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color:rgb(43, 40, 40);
+    margin: 0px auto;
+}
+
+#wrapper h1{
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+
+#wrapper label{
+    color: black;
+}
+#login{
+    margin-bottom: 60px;
+}
+
+.flash{
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+#wrapper form{
+    width: 500px;
+    padding: 20px;
+    background-color: grey;
+    margin: auto auto;
+    border: solid;
+    border-radius: 5px;
+}
+
+
+#loginRow1 label{
+    margin-left: 80px;
+    margin-bottom: 2px;
+}
+#loginRow1 {
+    margin-bottom: 8px;
+}
+#loginRow1 input{
+    margin-left: 40px
+}
+#loginRow2{
+    margin-bottom: 8px;
+}
+#loginRow2 label{
+    margin-left: 80px;
+    /* margin-bottom: 8px; */
+}
+#loginRow2 input{
+    margin-left: 17px;
+    /* margin-bottom: 8px; */
+}
+
+
+#row1 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#row1 label{
+    text-align: right;
+}
+#row1 input{
+    width: 150px;
+    margin-left: 46px;
+}
+
+#row2 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#row2 input{
+    width: 150px;
+    margin-left: 48px;
+}
+
+#row3 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#row3 input{
+    width: 150px;
+    margin-left: 79px;
+}
+
+#row4 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#row4 input{
+    width: 150px;
+    margin-left: 33px;
+}
+#row5 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#row5 input{
+    width: 150px;
+    margin-left: 57px;
+}
+
+#row6 {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+#row6 input{
+    width: 150px;
+}
+
+
+.myButtons{
+    display: block;
+    padding: 3px;
+    margin: 0px auto;
+    border-right-style: solid outset;
+    border-right-width: 2px;
+    border-right-color: black;
+    border-bottom-style: solid outset;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
